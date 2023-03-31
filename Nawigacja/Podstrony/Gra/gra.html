@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kółko i krzyżyk</title>
+    <link rel="stylesheet" type="text/css" href="gra.css" />
+  </head>
+  <body>
+    <div class="main-game">
+      <div class="inline">
+        <div id="players">
+          <h3>TRYB GRY</h3>
+          <button id="one_player">Jednoosobowy</button>
+          <button id="two_players">Dwuosobowy</button>
+          <div id="play_with"></div>
+        </div>
+
+        <div id="choose">
+          <h3>WYBIERZ SYMBOL</h3>
+          <button id="O">O</button>
+          <button id="X">X</button>
+          <div id="you_choose"></div>
+        </div>
+
+        <div id="resert_div">
+          <button id="reset">Reset</button>
+        </div>
+      </div>
+      <div class="players">
+        <table>
+          <tr>
+            <td id="jeden"></td>
+            <td id="dwa"></td>
+            <td id="trzy"></td>
+          </tr>
+          <tr>
+            <td id="cztery"></td>
+            <td id="piec"></td>
+            <td id="szesc"></td>
+          </tr>
+          <tr>
+            <td id="siedem"></td>
+            <td id="osiem"></td>
+            <td id="dziewiec"></td>
+          </tr>
+        </table>
+
+        <div id="statement">Wynik gry:</div>
+      </div>
+    </div>
+    <script src="gra.js"></script>
+  </body>
+</html>
